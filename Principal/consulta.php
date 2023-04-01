@@ -1,5 +1,6 @@
 <?php
     ini_set('memory_limit', '1048M');
+    ini_set('max_execution_time', 1000);
     require_once '../conexao/conexao.php';
     require_once '../vendor/autoload.php';
     require_once '../chaves_requisicao.php';
